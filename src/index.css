@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-app{
+    display: flex;
+    background: #F2F2f2;
+    height: 100vh;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-------------Personal info--------------*/
+
+.personalInfo{
+    background: white;
+    border-radius: 10px;
+    height: 450px;
+    margin: 20px;
+    max-width: 270px;
+    padding: 20px;
+    color: #4F4F4F;
+    
+}
+
+.personal{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.pictureProfile{
+    border-radius: 10px;
+    max-width: 230px;
+    
+}
+
+.personalName{
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.personalJob{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.container-pictureEmail{
+    display: flex;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.pictureEmail{
+    margin-right: 10px;
+    width: 15px;
+}
+
+.container-picturePhone{
+    display: flex;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.picturePhone{
+    margin-right: 10px;
+    width: 15px;
+}
+
+.personalDescription{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+
+/*----------------Skills-------------------*/
+
+.containerSkills{
+    display: flex;
+    color: #4F4F4F;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.container-category{
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 270px;
+    max-height: 210px;
+    background-color: white;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.skilltitle{
+    font-size: 15px;
+    
+}
+
+.container-skill{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.skillname{
+    font-size: 10px;
+}

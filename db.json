@@ -1,0 +1,94 @@
+{
+  "user": {
+		"personalInfo": {
+			"pictureProfile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqeXdNnooQDHi_dUs3cuhJV4-gZD8h0pO7UaF1unJbGW1egSviWF-EDvEeSIt5FmjkUkM&usqp=CAU",
+			"name": "Billy Pearson",
+			"job": "Front-end developer",
+			"email": "billy@example.com",
+			"number": "(+603) 546 624 342",
+			"description": "Self-motivatede developer whi is willing to learn and create outstanding UI applications."
+		},
+		"skills": [
+				{
+					"id": "1",
+					"title": "FRONT END",
+					"skill": [
+						{
+							"id": "2",
+							"name": "React",
+							"porcentage": 20
+						},
+						{
+							"id": "3",
+							"name": "Javascript",
+							"porcentage": 30
+						},
+						{
+							"id": "4",
+							"name": "CSS",
+							"porcentage": 40
+						},
+						{
+							"id": "5",
+							"name": "Vue",
+							"porcentage": 60
+						},
+						{
+							"id": "6",
+							"name": "Redux",
+							"porcentage": 40
+						},
+						{
+							"id": "7",
+							"name": "React Native",
+							"porcentage": 50
+						}
+
+					]
+				},
+				{
+					"id": "8",
+					"title": "DESING",
+					"skill": [
+						{
+							"id": "9",
+							"name": "Figma",
+							"porcentage": 50
+						},
+						{
+							"id": "10",
+							"name": "Photoshop",
+							"porcentage": 60
+						}
+					]
+				}
+		],
+		"experiences" : {
+							"id": "11",
+							"title": "Experiences",
+							"experience": [
+								{
+									"id": "12",
+									"logo": "https://1000marcas.net/wp-content/uploads/2019/11/Adidas-logo.jpg",
+									"date": "Feb 2017 - Current",
+									"job": "Front-end developer",
+									"description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+								},
+								{
+									"id": "13",
+									"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/2560px-H%26M-Logo.svg.png",
+									"date": "Aug 2016 - Feb 2018",
+									"job": "Full-stack developer",
+									"description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+								},
+								{
+									"id": "14",
+									"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/NIVEA_logo_2021.svg/2048px-NIVEA_logo_2021.svg.png",
+									"date": "Jun 2015 - Aug 2016",
+									"job": "Junior front-end developer",
+									"description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+								}
+						]}
+  }  
+}
+
