@@ -1,11 +1,11 @@
-import profilePicture from '../picture/profile.jpg';
+//import profilePicture from '../picture/profile.jpg';
 
 export const PersonalInfo = ({userStateInfo}) => {
  
   return (
     <div className='personalInfo'>
       <div className='container-picture'>
-        <img src={profilePicture} alt='profile' className='pictureProfile' />
+        <img src={userStateInfo?.pictureProfile} alt='profile' className='pictureProfile' />
       </div>
       <h1 className='personal personalName'>{userStateInfo?.name}</h1>
       <p className='personal personalJob'>{userStateInfo?.job}</p>

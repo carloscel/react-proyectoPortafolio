@@ -1,7 +1,7 @@
 {
   "user": {
 		"personalInfo": {
-			"pictureProfile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqeXdNnooQDHi_dUs3cuhJV4-gZD8h0pO7UaF1unJbGW1egSviWF-EDvEeSIt5FmjkUkM&usqp=CAU",
+			"pictureProfile": "/picture/profile.jpg",
 			"name": "Billy Pearson",
 			"job": "Front-end developer",
 			"email": "billy@example.com",
@@ -88,7 +88,78 @@
 									"job": "Junior front-end developer",
 									"description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
 								}
-						]}
+						]},
+		"separatorProject" : {
+								"title" : "Projects (3)"
+								
+							},
+		"separatorBlogs": {
+								"title" : "Blogs (1)"
+								
+							},
+						
+		"projects" : [
+						{ 
+							"id" : "15",
+							"picture" : "/picture/project01.jpg",
+							"tags"	: [
+								{
+									"tag": "#HTML",
+									"id" : "16"
+								},
+								{
+									"tag": "#CSS",
+									"id" : "17"
+								},
+								{
+									"tag": "#responsive",
+									"id" : "18"
+								}
+							],  
+							"title" : "Recipe Blog",
+							"description" : "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+						},
+						{
+							"id" : "16",
+							"picture" : "/picture/project02.jpg",
+							"tags"	: [
+								{
+									"tag": "#HTML",
+									"id" : "19"
+								},
+								{
+									"tag": "#CSS",
+									"id" : "20"
+								},
+								{
+									"tag": "#responsive",
+									"id" : "21"
+								}
+							],
+							"title" : "My Gallery",
+							"description" : "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+						},
+						{
+							"id" : "17",
+							"picture" : "/picture/project03.jpg",
+							"tags"	: [
+								{
+									"tag": "#HTML",
+									"id" : "22"
+								},
+								{
+									"tag": "#CSS",
+									"id" : "23"
+								},
+								{
+									"tag": "#responsive",
+									"id" : "24"
+								}
+							],
+							"title" : "Checkout",
+							"description" : "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+						}
+		]	 	
   }  
 }
 

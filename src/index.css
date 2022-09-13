@@ -8,10 +8,15 @@
 .container-app{
     display: flex;
     background: #F2F2f2;
-    height: 100vh;
+    
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.firtsColum{
+    display: flex;
+    flex-direction: column;
 }
 
 /*-------------Personal info--------------*/
@@ -108,4 +113,113 @@
 
 .skillname{
     font-size: 10px;
+}
+
+
+/*----------------Experiences-------------------*/
+
+.container-experience{
+    background: white;
+    border-radius: 10px;
+    max-width: 270px;
+    padding: 20px;
+    margin-left: 20px;
+    color: #4F4F4F;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 500px;
+}
+
+.container-brand{
+    display: flex;
+    margin-top: 30px;
+}
+
+.experienceLogo{
+    width: 45px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.experienceTitle{
+    font-size: 17px;
+}
+
+.experienceDescription{
+    font-size: 11px;
+    margin-top: 22px;
+}
+
+.experienceJob{
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.experienceDate{
+    font-size: 10px;
+}
+
+
+/*----------------Projects-------------------*/
+
+
+.project{
+    margin-top: 20px;
+    max-width: 560px;
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    margin-bottom: 20px;
+    color: #4F4F4F;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.projectPicture{
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.container-tags{
+    display: flex;
+  
+}
+
+.tags{
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.projectTitle{
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.projectDescription{
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+.container-button{
+    margin-top: 30px;
+}
+
+.blueButton{
+    border-radius: 5px;
+    background-color: #2F80ED;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 28px;
+}
+
+.whiteButton{
+    border-radius: 5px;
+    background-color: white;
+    color: #2F80ED;
+    border: none;
+    width: 80px;
+    height: 28px;
+    border: 1px solid #2F80ED;
+    margin-left: 10px;
 }
