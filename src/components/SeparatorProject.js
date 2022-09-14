@@ -2,14 +2,9 @@ import React from 'react'
 
 export const SeparatorProject = ({separatorProject}) => {
   
-  if(separatorProject){
-    return
-  }
-  console.log(separatorProject)
-
   return (
-    <div>
-      <h1>{separatorProject.title}</h1>
+    <div className='container-separator'>
+      <h1 className='separatortitle'>{separatorProject?.title}</h1>
       
     </div>
   )

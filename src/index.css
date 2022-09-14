@@ -29,12 +29,7 @@
     max-width: 270px;
     padding: 20px;
     color: #4F4F4F;
-    
-}
-
-.personal{
     font-family:Arial, Helvetica, sans-serif;
-    
 }
 
 .pictureProfile{
@@ -51,6 +46,7 @@
 .personalJob{
     font-size: 15px;
     margin-top: 5px;
+    
 }
 
 .container-pictureEmail{
@@ -62,6 +58,14 @@
 .pictureEmail{
     margin-right: 10px;
     width: 15px;
+}
+
+.personalEmail{
+    font-size: 13px;
+}
+
+.personalNumber{
+    font-size: 12px;
 }
 
 .container-picturePhone{
@@ -77,7 +81,8 @@
 
 .personalDescription{
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 12px;
+    color: #828282;
 }
 
 
@@ -101,7 +106,7 @@
 }
 
 .skilltitle{
-    font-size: 15px;
+    font-size: 13px;
     
 }
 
@@ -113,6 +118,7 @@
 
 .skillname{
     font-size: 10px;
+    font-weight: 100;
 }
 
 
@@ -147,6 +153,7 @@
 .experienceDescription{
     font-size: 11px;
     margin-top: 22px;
+    color: #828282;
 }
 
 .experienceJob{
@@ -163,7 +170,7 @@
 
 
 .project{
-    margin-top: 20px;
+    margin-top: 10px;
     max-width: 560px;
     border-radius: 10px;
     padding: 20px;
@@ -188,16 +195,19 @@
 .tags{
     margin-right: 10px;
     font-size: 10px;
+    font-weight: 100;
 }
 
 .projectTitle{
     font-size: 16px;
     margin-top: 16px;
+    font-weight: 200;
 }
 
 .projectDescription{
     font-size: 12px;
     margin-top: 16px;
+    color: #828282;
 }
 
 .container-button{
@@ -222,4 +232,170 @@
     height: 28px;
     border: 1px solid #2F80ED;
     margin-left: 10px;
+}
+
+
+/*----------------separator-------------------*/
+
+.container-separator{
+    margin-top: 20px;
+    max-width: 560px;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    color: #4F4F4F;
+    margin-top: 30px;
+}
+
+.separatortitle{
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+/*----------------hobbie-------------------*/
+
+
+.container-hobbies{
+    background: white;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px;
+    max-width: 270px;
+    padding: 20px;
+    color: #4F4F4F;
+}
+
+.hobbie{
+    margin-top: 23px;
+}
+
+.hobbiePicture{
+    border-radius: 10px;
+    max-width: 230px;
+}
+
+.hobbies-title{
+    font-size: 17px;
+}
+
+.hobbieTitle{
+    font-size: 14px;
+    margin-top: 11px;
+}
+
+.hobbieDescription{
+    font-size: 11px;
+    font-weight: 100px;
+    margin-top: 9px;
+    color: #828282;
+}
+
+
+/*----------------Blog-------------------*/
+
+.container-blog{
+    margin-top: 10px;
+    max-width: 560px;
+    border-radius: 10px;
+    
+    background: white;
+    display: flex;
+    margin-bottom: 20px;
+    color: #4F4F4F;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container-pictureBlog{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.blogPicture{
+    max-width: 300px;
+    margin-right: 0;
+}
+
+.container-text{
+    margin-top: 25px;
+    margin-left: 15px;
+    padding-right: 40px;
+}
+
+.blogSubtitle{
+    font-size: 10px;
+    font-weight: 10;
+    color: #dbd5d5;
+}
+
+.blogTitle{
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 90px;
+}
+
+.blogDescription{
+    font-size: 10px;
+    color: #828282;
+    margin-bottom: 17px;
+    margin-right: 30px;
+}
+
+.blogfooter{
+    font-size: 11px;
+    color: #2F80ED;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .containerSkills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project{
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+    }
+
+    .container-blog{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-separator{
+        width: 270px;
+    }
+
+    .container-blog{
+        width: 270px;
+    }
+
+    .blogPicture{
+        width: 230px;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .container-app{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .seconColum{
+        padding-left: 20px;
+        max-width: 290px;
+    }
+
+    .blogPicture{
+        width: 210px;
+        margin-left: 20px;
+    }
 }

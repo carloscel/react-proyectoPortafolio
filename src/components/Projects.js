@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from './Button'
 
-export const Projects = ({useProjects}) => {
+export const Projects = ({useProjects, buttonState}) => {
 
   return (
     <div className='container-projects'>
@@ -20,7 +20,7 @@ export const Projects = ({useProjects}) => {
               </div>
               <h2 className='projectTitle'>{project.title}</h2>
               <p className='projectDescription'>{project.description}</p>
-              <Button />
+              <Button buttonState={buttonState}/>
           </div>
                
         </div>        

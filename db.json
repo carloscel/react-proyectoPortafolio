@@ -159,7 +159,42 @@
 							"title" : "Checkout",
 							"description" : "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
 						}
-		]	 	
+		],
+		"button" : {
+						"buttonBlue" : "Demo",
+						"buttonWhite" : "Code"
+					},
+		"hobbies": {
+			"title" : "Hobbies",
+			"hobbies" : [
+							{
+								"id" : "25",
+								"picture" : "/picture/hobbie01.jpg",
+								"title" : "Gaming",
+								"description" : "Quisque feugiat malesuada molestie."
+							},
+							{
+								"id" : "26",
+								"picture" : "/picture/hobbie02.jpg",
+								"title" : "Cooking",
+								"description" : "Quisque feugiat malesuada molestie."
+							},
+							{
+								"id" : "27",
+								"picture" : "/picture/hobbie03.jpg",
+								"title" : "Biking",
+								"description" : "Quisque feugiat malesuada molestie."
+							}
+  						]			
+		},
+		"blogs" : {
+					"picture" : "/picture/blog01.jpg",
+					"subTitle" : "Blog",
+					"title" : "How to organize your CSS",
+					"description01" : "In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.",
+					"description02" : "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
+					"footer" : "dev.to"
+		}
   }  
 }
 
