@@ -26,3 +26,4 @@ export const Skill = ({skillsStateInfo}) => {
 }
 
 
+//como son dos map, el otro lo puedo crear dentro de una funcion y llamarlo dentro de mi codigo return para que se vea mas ordenado (buena practica)

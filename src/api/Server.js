@@ -1,0 +1,198 @@
+export const user = 
+{
+    "personalInfo": {
+        "pictureProfile": "/picture/profile.jpg",
+        "name": "Billy Pearson",
+        "job": "Front-end developer",
+        "email": "billy@example.com",
+        "number": "(+603) 546 624 342",
+        "description": "Self-motivatede developer whi is willing to learn and create outstanding UI applications."
+    },
+    "skills": [
+            {
+                "id": "1",
+                "title": "FRONT END",
+                "skill": [
+                    {
+                        "id": "2",
+                        "name": "React",
+                        "porcentage": 20
+                    },
+                    {
+                        "id": "3",
+                        "name": "Javascript",
+                        "porcentage": 30
+                    },
+                    {
+                        "id": "4",
+                        "name": "CSS",
+                        "porcentage": 40
+                    },
+                    {
+                        "id": "5",
+                        "name": "Vue",
+                        "porcentage": 60
+                    },
+                    {
+                        "id": "6",
+                        "name": "Redux",
+                        "porcentage": 40
+                    },
+                    {
+                        "id": "7",
+                        "name": "React Native",
+                        "porcentage": 50
+                    }
+
+                ]
+            },
+            {
+                "id": "8",
+                "title": "DESING",
+                "skill": [
+                    {
+                        "id": "9",
+                        "name": "Figma",
+                        "porcentage": 50
+                    },
+                    {
+                        "id": "10",
+                        "name": "Photoshop",
+                        "porcentage": 60
+                    }
+                ]
+            }
+    ],
+    "experiences" : {
+                        "id": "11",
+                        "title": "Experiences",
+                        "experience": [
+                            {
+                                "id": "12",
+                                "logo": "https://1000marcas.net/wp-content/uploads/2019/11/Adidas-logo.jpg",
+                                "date": "Feb 2017 - Current",
+                                "job": "Front-end developer",
+                                "description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+                            },
+                            {
+                                "id": "13",
+                                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/2560px-H%26M-Logo.svg.png",
+                                "date": "Aug 2016 - Feb 2018",
+                                "job": "Full-stack developer",
+                                "description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+                            },
+                            {
+                                "id": "14",
+                                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/NIVEA_logo_2021.svg/2048px-NIVEA_logo_2021.svg.png",
+                                "date": "Jun 2015 - Aug 2016",
+                                "job": "Junior front-end developer",
+                                "description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+                            }
+                    ]},
+    "separatorProject" : {
+                            "title" : "Projects (3)"
+                            
+                        },
+    "separatorBlogs": {
+                            "title" : "Blogs (1)"
+                            
+                        },
+                    
+    "projects" : [
+                    { 
+                        "id" : "15",
+                        "picture" : "/picture/project01.jpg",
+                        "tags"	: [
+                            {
+                                "tag": "#HTML",
+                                "id" : "16"
+                            },
+                            {
+                                "tag": "#CSS",
+                                "id" : "17"
+                            },
+                            {
+                                "tag": "#responsive",
+                                "id" : "18"
+                            }
+                        ],  
+                        "title" : "Recipe Blog",
+                        "description" : "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+                    },
+                    {
+                        "id" : "16",
+                        "picture" : "/picture/project02.jpg",
+                        "tags"	: [
+                            {
+                                "tag": "#HTML",
+                                "id" : "19"
+                            },
+                            {
+                                "tag": "#CSS",
+                                "id" : "20"
+                            },
+                            {
+                                "tag": "#responsive",
+                                "id" : "21"
+                            }
+                        ],
+                        "title" : "My Gallery",
+                        "description" : "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+                    },
+                    {
+                        "id" : "17",
+                        "picture" : "/picture/project03.jpg",
+                        "tags"	: [
+                            {
+                                "tag": "#HTML",
+                                "id" : "22"
+                            },
+                            {
+                                "tag": "#CSS",
+                                "id" : "23"
+                            },
+                            {
+                                "tag": "#responsive",
+                                "id" : "24"
+                            }
+                        ],
+                        "title" : "Checkout",
+                        "description" : "In this project, I work with HTML and CSS to create a responsive page . The design is from devchallenge.io. Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+                    }
+    ],
+    "button" : {
+                    "buttonBlue" : "Demo",
+                    "buttonWhite" : "Code"
+                },
+    "hobbies": {
+        "title" : "Hobbies",
+        "hobbies" : [
+                        {
+                            "id" : "25",
+                            "picture" : "/picture/hobbie01.jpg",
+                            "title" : "Gaming",
+                            "description" : "Quisque feugiat malesuada molestie."
+                        },
+                        {
+                            "id" : "26",
+                            "picture" : "/picture/hobbie02.jpg",
+                            "title" : "Cooking",
+                            "description" : "Quisque feugiat malesuada molestie."
+                        },
+                        {
+                            "id" : "27",
+                            "picture" : "/picture/hobbie03.jpg",
+                            "title" : "Biking",
+                            "description" : "Quisque feugiat malesuada molestie."
+                        }
+                      ]			
+    },
+    "blogs" : {
+                "picture" : "/picture/blog01.jpg",
+                "subTitle" : "Blog",
+                "title" : "How to organize your CSS",
+                "description01" : "In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.",
+                "description02" : "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
+                "footer" : "dev.to"
+    }
+}  

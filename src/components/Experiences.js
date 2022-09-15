@@ -3,11 +3,11 @@ export const Experiences = ({experienState}) => {
 
   const {experience} =  experienState
   
-  return ( !!Object.keys(experienState).length && 
+  return ( 
     <div className="container-experience">
       <h1 className="experienceTitle">{experienState.title}</h1>
       {
-       experience.map((experience) => (
+       experience?.map((experience) => (
           <div className="container-brand" key={experience.id}>
             <div><img className="experienceLogo" src={experience.logo}/></div>
             <div>
@@ -22,4 +22,6 @@ export const Experiences = ({experienState}) => {
     </div>
   )
 }
+
+//return (!!Object.keys(experienState).length && <div></div>
 
